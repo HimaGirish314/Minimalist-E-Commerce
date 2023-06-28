@@ -1,0 +1,25 @@
+.navbar {
+    -webkit-box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+.logo-img img{
+    width: 120px;
+    height: 80px;
+}
+.cart-icon .icon{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
